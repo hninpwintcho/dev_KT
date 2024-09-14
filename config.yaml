@@ -1,0 +1,18 @@
+# database Host mapping
+database: &common_datebase
+  host: db.example.net
+  port: 3306
+  enabled: true
+  legacy: yes
+  
+database_production:
+  host: db2.example.net
+  port: 3306
+  enabled: true
+  legacy: yes
+
+database_development:
+  host: localhost
+  port: 80
+  enabled: true
+  legacy: yes
